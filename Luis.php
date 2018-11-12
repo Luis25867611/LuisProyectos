@@ -6,7 +6,7 @@
     function Escribir(){
         echo "El Nombre Es: ". $this->Nombre."<br>"."<br>";
         echo "El Apellido Es: ".$this->Apellido."<br>"."<br>";
-        echo "La Cedula Es: ".$this->Cedula."<br>";
+        echo "La Cedula Es: ".$this->Cedula;
     }
     }
     $Hola1 = New Hola();
